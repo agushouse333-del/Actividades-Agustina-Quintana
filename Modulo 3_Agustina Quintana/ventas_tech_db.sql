@@ -97,7 +97,7 @@ INSERT INTO dbo.ventas (id_venta, id_cliente, id_producto, cantidad, precio_unit
 GO
 
 -- === SECCIÓN 4: VALIDACIÓN ===
-SELECT * FROM dbo.categorias;   -- Esperado:  4 filas.
-SELECT * FROM dbo.clientes;     -- Esperado:  5 filas.
-SELECT * FROM dbo.productos;    -- Esperado:  6 filas.
-SELECT * FROM dbo.ventas;       -- Esperado: 10 filas.
+SELECT * FROM dbo.categorias;
+SELECT * FROM dbo.clientes;
+SELECT * FROM dbo.productos;
+SELECT * FROM dbo.ventas;
